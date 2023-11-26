@@ -1,3 +1,4 @@
+
 var firstNameForm = document.getElementById('firstName');
 var lastNameForm = document.getElementById('lastName');
 var phoneNumberForm = document.getElementById('phoneNumber');
@@ -15,7 +16,7 @@ regForm.addEventListener('submit',function(e) {
         });
 
         // location.replace("../index.html");
-      
+        // window.location ="../pages/home.html";
 
     }
     else{
@@ -34,5 +35,5 @@ regForm.addEventListener('submit',function(e) {
           });
         }
         // window.location ="./pages/home.html";
-        window.location ="../index.html";
+        window.location ="./pages/home.html";
 });
